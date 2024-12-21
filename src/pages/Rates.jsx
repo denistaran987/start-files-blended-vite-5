@@ -21,7 +21,6 @@ const Rates = () => {
             />
           }
         />
-
         {isError && (
           <Heading
             error
