@@ -16,6 +16,7 @@ const persistConfig = {
   key: 'root',
   version: 1,
   storage,
+  whitelist: ['baseCurrency'],
 };
 
 const persistedReducer = persistReducer(persistConfig, currencyReducer);
